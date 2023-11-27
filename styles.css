@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #fff;
+    color: #fff;
+
+}
+
+.container{
+    padding: 5px 5%;
+    text-align: center;
+    padding: 5px;
+    background-image: url(Image\ Iron.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo{
+    width: 140px;
+    padding: left;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    cursor: pointer;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    position: relative;
+}
+.nav-link:hover {
+    color: #ff0000; 
+}
+.header-text h1{
+    font-size: 80px;
+    margin-top: 70px;
+    padding: 200px ;
+}
+.about-col-1{
+    .heading{
+        font-size: 30px;
+        color: black;
+        margin-top: 2%;
+        font-style: italic; 
+    }
+    width: 50%;
+    float: left;
+    font-size: 30px;
+    color: black;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+.about-col-2 img{
+    width: 50%;
+    float: right;
+    width: 500px;
+    margin-right: 2%;
+}
+.movies{
+    background: #fff;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title{
+    color: black;
+    font-size: 45px;
+    width: 500px;
+    margin: 30px auto;
+    text-align: center;
+    font-style: italic;
+    margin-top: 32%;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #100f0f;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    font-size: 30px;
+    color:#fff;
+}
+.author-col-1{
+    .heading{
+        font-size: 30px;
+        color: black;
+        margin-top: 2%;
+        font-style: italic; 
+    }
+    width: 50%;
+    float: left;
+    font-size: 30px;
+    color: black;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+.author-col-2 img{
+    width: 50%;
+    height: 25%;
+    float: right;
+    width: 500px;
+    margin-right: 2%;
+    margin-top: 10%;
+}
+.cast{
+    background: #fff;
+    width: 100%;
+    padding: 100px 0px;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card1{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #edecec;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    
+    bottom: 0;
+    width: 100%;
+}
